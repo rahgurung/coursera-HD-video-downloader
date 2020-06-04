@@ -1,10 +1,9 @@
-# Coursera HD Video Downloader
+<p align="center"><img src="https://image.flaticon.com/icons/svg/2963/2963176.svg" align="center" width="175"></p>
+<h1 align="center">Coursera HD Video Downloader</h1>
 
 ## Introduction
 
-This project aims to provide an easy way to download videos from Coursera.
-
-Not all extensions will need of all scripts or all types of messaging. All code snippets are optional. Text and images should be replaced with your own.
+This project aims to provide an easy way to download videos from Coursera in most highest quality format available.
 
 ## Installation
 

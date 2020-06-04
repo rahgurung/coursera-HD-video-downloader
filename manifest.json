@@ -1,12 +1,12 @@
 {
     "manifest_version": 2,
-    "name": "Coursera HD Downloader",
+    "name": "Coursera HD Video Downloader",
     "version": "0.0.1",
     "description": "Dowload coursera videos in HD",
     "icons": {
-        "16": "16x16.png",
-        "48": "48x48.png",
-        "128": "128x128.png"
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
     },
     "browser_action": {
         "default_title": "Coursera Videos Downloader",
@@ -15,16 +15,14 @@
     "content_scripts": [
         {
             "matches": ["https://www.coursera.org/*"],
-            "js": ["in-content.js"],
-            "run_at": "document_end"
+            "js": ["in-content.js"]
         }
     ],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
     },
-    "content_security_policy":
-        "script-src 'self' 'unsafe-eval'; object-src 'self'; img-src * data: 'self' 'unsafe-eval'",
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'; img-src * data: 'self' 'unsafe-eval'",
     "offline_enabled": true,
     "permissions": ["tabs", "<all_urls>", "activeTab"]
 }

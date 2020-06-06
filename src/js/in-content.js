@@ -7,7 +7,7 @@ function injectButton() {
     const link = video[0].src;
     const db = document.createElement('span')
     db.setAttribute('download', true);
-    db.innerHTML = `<a href=${link} target="_blank" class="_o4kklvw rc-VideoToolbarButton" style="padding: 5px 7px 7px 5px; min-height:10px; font-size: 14px; margin-left: 6px; font-weight: 400; border-color: #ddd; color: #757575;" download>Download in HD</a>`
+    db.innerHTML = `<a href=${link} target="_blank" class="_o4kklvw rc-VideoToolbarButton" style="padding: 7px 5px 7px 5px; min-height:31.99px; font-size: 14px; margin-left: 6px; font-weight: 400; border-color: #ddd; color: #757575;" download>Download in HD</a>`
     sections[1].appendChild(db);
 }
 

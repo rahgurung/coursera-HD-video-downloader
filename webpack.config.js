@@ -11,10 +11,8 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].js'
     },
-
     cache: true,
     devtool: 'eval-cheap-module-source-map',
-
     module: {
         loaders: [
             {
@@ -24,7 +22,6 @@ module.exports = {
             }
         ]
     },
-    
     plugins: [
         new CopyWebpackPlugin([
             { from: './manifest.json' },

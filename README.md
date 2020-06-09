@@ -3,11 +3,11 @@
 
 ## Introduction
 
-This project aims to provide an easy way to download videos from Coursera in most highest quality format available.
+This project aims to provide an easy way to download videos from Coursera in most highest quality available.
 
 ## Installation
 
-.
+[Chrome Web Store](https://chrome.google.com/webstore/detail/coursera-hd-video-downloa/kpnmpopgchfdpjephjkcgikfjnbpoahf)
 
 ## Development
 

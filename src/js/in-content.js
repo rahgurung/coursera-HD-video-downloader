@@ -1,25 +1,38 @@
 function injectButton() {
-    console.log("HELOO WORLD")
+    console.log('adding my button')
 
-    // Grab section in each post
-    const sections = document.getElementsByClassName('_1qfi0x77')
-    const video = document.getElementsByClassName('vjs-tech')
-    const link = video[0].src;
-    const db = document.createElement('span')
-    db.setAttribute('download', true);
-    db.innerHTML = `<a href=${link} target="_blank" class="_o4kklvw rc-VideoToolbarButton" style="padding: 7px 5px 7px 5px; min-height:31.99px; font-size: 14px; margin-left: 6px; font-weight: 400; border-color: #ddd; color: #757575;" download>Download in HD</a>`
-    sections[1].appendChild(db);
+    // Grab section in each page where we will inject our button
+    const videoToolBarSection = document.getElementsByClassName('rc-VideoToolbar horizontal-box wrap align-items-spacebetween')[0].firstChild
+
+    // Extracting the video download link
+    const targetedVideo = document.getElementsByClassName('vjs-tech')
+    const downloadLink = targetedVideo[0].src
+
+    // Create our download button element
+    const downloadButton = document.createElement('span')
+    downloadButton.innerHTML = `<a href=${downloadLink} target="_blank" class="_o4kklvw rc-VideoToolbarButton courseraDownloaderButton">Download in HD</a>`
+    console.log(videoToolBarSection)
+
+    // Inject button
+    videoToolBarSection.appendChild(downloadButton)
+}
+
+function checkIfButtonThere() {
+    let noOfButtons = document.getElementsByClassName('courseraDownloaderButton')
+    if (noOfButtons.length > 1) {
+        noOfButtons[0].remove()
+    }
 }
 
 // Detect until the required content is rendered dynamically
 var obs = new MutationObserver(function (mutations, observer) {
     for (var i = 0; i < mutations[0].addedNodes.length; i++) {
         if (mutations[0].addedNodes[i].nodeType == 1) {
-            console.log(mutations);
-            if (mutations[0].addedNodes[0].className == 'nostyle rc-ReviewPageLink') {
-                injectButton();
+            if (mutations[0].addedNodes[0].className == 'rc-VideoHighlightingManager') {
+                injectButton()
+                checkIfButtonThere()
             }
         }
     }
 });
-obs.observe(document.body, { childList: true, subtree: true, attributes: false, characterData: false });
+obs.observe(document.body, { childList: true, subtree: true, attributes: false, characterData: false })

@@ -1,5 +1,4 @@
 function injectButton() {
-    console.log('adding my button')
 
     // Grab section in each page where we will inject our button
     const videoToolBarSection = document.getElementsByClassName('rc-VideoToolbar horizontal-box wrap align-items-spacebetween')[0].firstChild

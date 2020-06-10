@@ -3,7 +3,13 @@
 
 ## Introduction
 
-This project aims to provide an easy way to download videos from Coursera in most highest quality available.
+Right now, an issue with video downloads of Coursera is that it doesn't allows to download videos in HD. This extension resolves that issue by providing the video download in best quality available.
+
+## Usage
+1) Install the extension
+2) Click on new `Download in HD` button to open the HD video in browser's local player
+3) Ctrl + S
+4) It's all yours
 
 ## Installation
 

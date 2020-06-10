@@ -20,7 +20,7 @@ function injectButton() {
 function checkIfButtonThere() {
     let noOfButtons = document.getElementsByClassName('courseraDownloaderButton')
     if (noOfButtons.length > 1) {
-        noOfButtons[0].remove()
+        noOfButtons[1].remove()
     }
 }
 

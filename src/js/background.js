@@ -11,3 +11,5 @@ chrome.webNavigation.onCompleted.addListener(
         hostSuffix: 'coursera.com'
     }]
 });
+
+chrome.runtime.setUninstallURL('https://forms.gle/i5kpP8FALCLBUQqH9')

@@ -10,7 +10,6 @@ function injectButton() {
     // Create our download button element
     const downloadButton = document.createElement('span')
     downloadButton.innerHTML = `<a href=${downloadLink} target="_blank" class="_o4kklvw rc-VideoToolbarButton courseraDownloaderButton">Download in HD</a>`
-    console.log(videoToolBarSection)
 
     // Inject button
     videoToolBarSection.appendChild(downloadButton)

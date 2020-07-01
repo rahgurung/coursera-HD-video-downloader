@@ -1,15 +1,15 @@
 chrome.webNavigation.onCompleted.addListener(
-    function (navigationEvent) {
-
-        let tabId = navigationEvent.tabId
-        chrome.tabs.executeScript(tabId, { file: 'in-content.js' })
-    }, {
+  (navigationEvent) => {
+    const { tabId } = navigationEvent;
+    chrome.tabs.executeScript(tabId, { file: 'in-content.js' });
+  }, {
     url: [{
-        hostSuffix: 'coursera.org'
+      hostSuffix: 'coursera.org',
     },
     {
-        hostSuffix: 'coursera.com'
-    }]
-});
+      hostSuffix: 'coursera.com',
+    }],
+  },
+);
 
-chrome.runtime.setUninstallURL('https://forms.gle/i5kpP8FALCLBUQqH9')
+chrome.runtime.setUninstallURL('https://forms.gle/i5kpP8FALCLBUQqH9');

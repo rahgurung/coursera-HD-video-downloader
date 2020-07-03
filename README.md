@@ -22,6 +22,8 @@ Right now, an issue with video downloads of Coursera is that it doesn't allows t
 
 [Chrome Web Store](https://chrome.google.com/webstore/detail/coursera-hd-video-downloa/kpnmpopgchfdpjephjkcgikfjnbpoahf)
 
+[Firefox Addon](https://addons.mozilla.org/en-US/firefox/addon/coursera-hd-video-downloader/)
+
 ## Development
 
 To run a development server that will watch for file changes and rebuild the scripts, run:

@@ -8,24 +8,14 @@ function injectButton() {
 
   // Create our download button element
   const downloadButton = document.createElement('div');
-  downloadButton.innerHTML = `<a href=${downloadLink} target="_blank" class=" _n65jend rc-VideoToolbarButton _o4kklvw rc-VideoToolbarButton courseraDownloaderButton">Download in HD</a>`;
+  downloadButton.className = "rc-DownloadsDropdown bt3-dropdown";
+  downloadButton.innerHTML = `<a href=${downloadLink} target="_blank" class="bt3-dropdown-toggle _o4kklvw rc-VideoToolbarButton courseraDownloaderButton">Download in HD</a>`;
 
   // Inject button
   videoToolBarSection.appendChild(downloadButton);
 
-  // added style
-  addScript('../css/style.css');
-
 }
-function addScript(filename){
- var head = document.getElementsByTagName('head')[0];
 
- var script = document.createElement('script');
- script.src = filename;
- script.type = 'text/javascript';
-
- head.append(script);
-}
 function checkIfButtonThere() {
   const noOfButtons = document.getElementsByClassName('courseraDownloaderButton');
   if (noOfButtons.length > 1) {

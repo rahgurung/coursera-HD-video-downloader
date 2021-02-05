@@ -1,9 +1,18 @@
 .courseraDownloaderButton {
-    padding: 7px 5px 7px 5px !important;
+    padding: 7px 12px 7px 12px !important;
     min-height: 31.99px !important;
     font-size: 14px !important;
     margin-left: 6px !important;
     font-weight: 400 !important;
     border-color: #ddd !important;
-    color: #757575 !important;
+    color:#5e5e5e !important;
+    background-color: rgb(239, 239, 239) !important;
+    transition: all .45s cubic-bezier(.23,1,.32,1) 0ms !important;
+    border-radius: 2px;
+}
+
+.courseraDownloaderButton:hover{
+    background-color: #2d62d7 !important;
+    color: white !important;
+    transition: all .45s cubic-bezier(.23,1,.32,1) 0ms !important;
 }

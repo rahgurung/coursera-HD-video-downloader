@@ -1,6 +1,6 @@
 {
     "name": "coursera-hd-video-downloader",
-    "version": "0.0.9",
+    "version": "1.0.0",
     "description": "Download Coursera Videos in HD",
     "main": "src/index.js",
     "repository": "git@github.com:gurrrung/coursera-HD-video-downloader.git",

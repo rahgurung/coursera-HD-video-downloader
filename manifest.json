@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
     "name": "Coursera HD Video Downloader",
-    "version": "1.0.2",
-    "description": "Dowload coursera videos in HD",
+    "version": "1.1.0",
+    "description": "Download coursera videos in HD",
     "icons": {
         "16": "logo.png",
         "48": "logo.png",

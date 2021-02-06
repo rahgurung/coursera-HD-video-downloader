@@ -1,6 +1,6 @@
 {
     "name": "coursera-hd-video-downloader",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Download Coursera Videos in HD",
     "main": "src/index.js",
     "repository": "git@github.com:gurrrung/coursera-HD-video-downloader.git",
@@ -24,7 +24,7 @@
     },
     "scripts": {
         "start": "web-ext run --target=chromium --source-dir ./dist/",
-        "start:firefox": "web-ext run --source-dir ./dist/",
+		"start:firefox": "web-ext run --source-dir ./dist/",
         "prebuild": "rimraf dist",
         "build": "webpack",
         "lint": "eslint . --ext .js --ignore-pattern dist/"

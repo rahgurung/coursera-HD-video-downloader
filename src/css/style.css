@@ -8,6 +8,7 @@
     border: 1px solid #ddd !important;
     border-radius: 2px !important;
     cursor: pointer !important;
+    text-decoration: none !important;
 }
 
 .courseraDownloaderButton:hover{

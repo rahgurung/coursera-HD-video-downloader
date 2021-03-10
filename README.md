@@ -5,6 +5,7 @@
 </p>
 <p align="center">
 <img src="https://img.shields.io/chrome-web-store/users/kpnmpopgchfdpjephjkcgikfjnbpoahf" align="center">
+<img src="https://img.shields.io/chrome-web-store/rating/kpnmpopgchfdpjephjkcgikfjnbpoahf" align="center">
 </p>
 
 ## Introduction

@@ -1,3 +1,8 @@
+.container-courseraDownloader {
+    display: grid;
+    align-items: center;
+}
+
 .courseraDownloaderButton {
     padding: 5px 12px 5px 12px !important;
     min-height: 31.99px !important;

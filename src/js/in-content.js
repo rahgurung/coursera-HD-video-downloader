@@ -1,6 +1,13 @@
 function injectButton() {
   // Grab section in each page where we will inject our button
-  const videoToolBarSection = document.getElementsByClassName('rc-VideoToolbar horizontal-box wrap align-items-spacebetween')[0].firstChild;
+  let videoToolBarSection = document.getElementsByClassName('rc-VideoToolbar horizontal-box wrap align-items-spacebetween');
+
+  // In case of new UI
+  if (videoToolBarSection.length < 1) {
+    videoToolBarSection = document.getElementsByClassName('rc-VideoToolbar');
+  }
+
+  videoToolBarSection = videoToolBarSection[0].firstChild;
 
   // Extracting the video download link
   const targetedVideo = document.getElementsByClassName('vjs-tech');
@@ -8,6 +15,7 @@ function injectButton() {
 
   // Create our download button element
   const downloadButton = document.createElement('span');
+  downloadButton.classList.add('container-courseraDownloader');
   downloadButton.innerHTML = `<a href=${downloadLink} target="_blank" class="courseraDownloaderButton">Download in HD</a>`;
 
   // Inject button

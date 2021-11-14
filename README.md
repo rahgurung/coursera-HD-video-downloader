@@ -1,4 +1,5 @@
-<p align="center"><img src="https://image.flaticon.com/icons/svg/2963/2963176.svg" align="center" width="175"></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/30543444/141682908-a091dc60-5189-4635-9477-abd40298d198.png" align="center" width="175"></p>
+
 <h1 align="center">Coursera HD Video Downloader</h1>
 <p align="center">
 <img src="https://github.com/gurrrung/coursera-HD-video-downloader/workflows/Coursera%20HD%20Video%20Downloader/badge.svg" align="center">

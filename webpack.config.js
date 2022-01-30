@@ -27,6 +27,7 @@ module.exports = {
       { from: './manifest.json' },
       { from: './src/images' },
       { from: './src/css' },
+      { from: './src/popup.html' },
     ]),
   ],
 };

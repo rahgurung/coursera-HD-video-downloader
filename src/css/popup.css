@@ -1,0 +1,60 @@
+.popup {
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+.foot_icon {
+    height: 20px;
+    object-fit: contain;
+}
+
+.footer {
+    padding: 0 20px;
+    justify-content: center;
+    grid-gap: 5px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.title-chvd {
+    font-size: 20px;
+    padding-bottom: 25px;
+}
+
+.link {
+    color: #005282;
+}
+
+.donation {
+    padding: 5px;
+    border: solid 2px #00800047;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5px;
+    background: #d8ffd8;
+}
+
+.supporters {
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+    background: #ffffb0;
+}
+
+.thanks {
+    background: aliceblue;
+    font-size: 15px;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+}

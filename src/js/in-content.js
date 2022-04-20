@@ -31,14 +31,16 @@ function checkIfButtonThere() {
 
 // Detect until the required content is rendered dynamically
 const obs = new MutationObserver(((mutations) => {
-  for (let i = 0; i < mutations[0].addedNodes.length; i += 1) {
-    if (mutations[0].addedNodes[i].nodeType === 1) {
-      if (mutations[0].addedNodes[0].className === 'rc-VideoHighlightingManager') {
-        injectButton();
-        checkIfButtonThere();
+  mutations.forEach((element) => {
+    for (let i = 0; i < element.addedNodes.length; i += 1) {
+      if (element.addedNodes[i].nodeType === 1) {
+        if (element.addedNodes[0].className === 'rc-VideoHighlightingManager') {
+          injectButton();
+          checkIfButtonThere();
+        }
       }
     }
-  }
+  });
 }));
 obs.observe(document.body, {
   childList: true, subtree: true, attributes: false, characterData: false,

@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "Coursera HD Video Downloader",
-    "version": "2.1.2",
+    "version": "2.1.3",
     "description": "Download coursera videos in HD",
     "icons": {
         "16": "logo.png",
@@ -24,6 +24,6 @@
         "scripts": ["background.js"],
         "persistent": false
     },
-    "permissions": ["tabs", "https://www.coursera.org/*", "webNavigation", "activeTab"],
+    "permissions": ["https://www.coursera.org/*", "webNavigation", "activeTab"],
     "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'"
 }

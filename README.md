@@ -1,7 +1,10 @@
-> ⚠️ **This project is no longer maintained.**  
-> It has been archived and is not receiving updates or support because Coursera itself added the download feature.
-> 
-> Last stable version: `v2.0.0` – Archived on **April 8, 2025**.
+# 🚫 Deprecated
+
+This Chrome extension is **no longer maintained** and has been archived as Coursera rolled out its own download feature.
+
+**🗓️ Archived:** April 8, 2025  
+**🧭 Last Known Version:** v2.0.0  
+
 
   
 <p align="center"><img src="https://user-images.githubusercontent.com/30543444/141682908-a091dc60-5189-4635-9477-abd40298d198.png" align="center" width="175"></p>
@@ -11,7 +14,7 @@
 <img src="https://github.com/gurrrung/coursera-HD-video-downloader/workflows/Coursera%20HD%20Video%20Downloader/badge.svg" align="center">
 </p>
 <p align="center">
-<img src="https://img.shields.io/chrome-web-store/users/kpnmpopgchfdpjephjkcgikfjnbpoahf" align="center">
+<img src="https://img.shields.io/badge/status-deprecated-red" align="center">
 <img src="https://img.shields.io/chrome-web-store/rating/kpnmpopgchfdpjephjkcgikfjnbpoahf" align="center">
 </p>
 

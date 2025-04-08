@@ -1,3 +1,9 @@
+> ⚠️ **This project is no longer maintained.**  
+> It has been archived and is not receiving updates or support because Coursera itself added the download feature.
+> 
+> Last stable version: `v2.0.0` – Archived on **April 8, 2025**.
+
+  
 <p align="center"><img src="https://user-images.githubusercontent.com/30543444/141682908-a091dc60-5189-4635-9477-abd40298d198.png" align="center" width="175"></p>
 
 <h1 align="center">Coursera HD Video Downloader</h1>
